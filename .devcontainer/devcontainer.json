@@ -10,7 +10,10 @@
 				"astro-build.astro-vscode"
 			]
 		}
-	}
+	},
+	"mounts": [
+		"source=tutorial-node-modules,target=${containerWorkspaceFolder}/node_modules,type=volume"
+	]
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
